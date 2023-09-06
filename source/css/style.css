@@ -1,0 +1,393 @@
+@charset "UTF-8";
+/*Обнуление*/
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Comfortaa:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@500&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/* ======================*/
+body {
+  background: linear-gradient(90deg, #ff6dd1 0%, #f398eb 100%, #F9F9F9 100%);
+}
+
+.wrapper {
+  overflow: hidden;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  flex: 1 1 auto;
+}
+
+.hi {
+  background: url(/source/img/fonverh.jpg) 0 0/cover no-repeat;
+}
+
+.container {
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+.hi_row {
+  display: flex;
+  padding: 50px 0;
+  justify-content: space-between;
+}
+
+.hi_title {
+  font-size: 80px;
+  font-family: Comfortaa, cursive;
+  text-align: center;
+}
+
+.hi_text {
+  font-family: "Caveat", cursive;
+  font-size: 50px;
+  line-height: 50px;
+  text-align: center;
+}
+
+.hi_img {
+  display: flex;
+  border-radius: 50%;
+  box-shadow: 30px 30px 3px rgb(253, 253, 253);
+  overflow: hidden;
+  width: 500px;
+  height: 400px;
+}
+.hi_img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.footer {
+  background: linear-gradient(90deg, #e333ac 0%, #f554e7 100%, #F9F9F9 100%);
+}
+
+.footer_row {
+  display: flex;
+  justify-content: center;
+  height: 80px;
+  align-items: center;
+}
+
+.footer_text {
+  font-size: 40px;
+  font-family: "Mulish", sans-serif;
+  line-height: 40px;
+}
+
+.konoha {
+  padding: 50px 0;
+}
+
+.konoha_row {
+  display: flex;
+}
+
+.konoha_img {
+  display: flex;
+  margin-top: 20px;
+  flex: 0 0 400px;
+}
+.konoha_img img {
+  max-width: 100%;
+  width: 400px;
+  height: 550px;
+  border-radius: 10px;
+}
+
+.konoha_body {
+  flex: 1 1 auto;
+  padding-left: 40px;
+}
+
+.konha_title {
+  font-size: 40px;
+  font-family: Comfortaa, cursive;
+  text-align: center;
+  margin-bottom: 30px;
+  padding-top: 30px;
+}
+
+.konah_text p {
+  font-family: "Caveat", cursive;
+  font-size: 30px;
+  line-height: 35px;
+  margin-bottom: 10px;
+}
+
+.like {
+  padding: 50px 0;
+}
+
+.like_row {
+  display: flex;
+}
+
+.like_body {
+  flex: 1 1 auto;
+}
+
+.like_title {
+  font-size: 40px;
+  font-family: Comfortaa, cursive;
+  text-align: center;
+  margin-bottom: 30px;
+  padding-top: 30px;
+}
+
+.like_text1 {
+  font-family: "Caveat", cursive;
+  font-size: 30px;
+  line-height: 35px;
+  margin-bottom: 10px;
+}
+.like_text1 li {
+  margin: 30px 0;
+}
+.like_text1 li:before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: rgb(18, 250, 84);
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.like_text2 {
+  font-family: "Caveat", cursive;
+  font-size: 30px;
+  line-height: 35px;
+  margin-bottom: 10px;
+}
+.like_text2 li {
+  margin: 30px 0;
+}
+.like_text2 li:before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: rgb(255, 0, 0);
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.like_img {
+  padding-left: 40px;
+  display: flex;
+  margin-top: 20px;
+  flex: 0 0 750px;
+}
+.like_img img {
+  max-width: 100%;
+  height: 1050px;
+  border-radius: 10px;
+}
+
+.video_row {
+  display: flex;
+  padding: 50px 0;
+  justify-content: space-between;
+}
+
+.video_body {
+  flex: 1 1 auto;
+}
+
+.video_title {
+  font-size: 60px;
+  font-family: Comfortaa, cursive;
+  text-align: center;
+  margin-bottom: 30px;
+  padding-top: 30px;
+}
+
+.video_text {
+  font-family: "Caveat", cursive;
+  font-size: 40px;
+  line-height: 35px;
+  margin-bottom: 30px;
+  padding-left: 40px;
+  text-align: center;
+}
+
+.video_video {
+  display: flex;
+  padding: 0px 20px;
+}
+.video_video video {
+  width: 100%;
+  border-radius: 20px;
+  padding-left: 30px;
+  height: 100%;
+}
+
+.tehnik {
+  padding: 50px 0 20px 0;
+  background: linear-gradient(90deg, #ed15a9 0%, #e85202 100%, #d419d1 100%);
+}
+
+.tehnik_title {
+  font-size: 60px;
+  font-family: Comfortaa, cursive;
+  text-align: center;
+  margin-bottom: 30px;
+  padding-top: 30px;
+}
+
+.tehnik_body {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.tehnik_row {
+  display: flex;
+  margin: 0 -22.5px;
+  flex-wrap: wrap;
+}
+
+.tehnik_colum {
+  flex: 0 1 33.333%;
+  padding: 10px 22.5px;
+  display: flex;
+}
+
+.tehnik_subtitle {
+  font-family: "Manrope", sans-serif;
+  text-align: center;
+  margin: 30px 10px;
+  line-height: 30px;
+  font-size: 25px;
+  color: #000000;
+}
+
+.tehnik_img {
+  display: block;
+}
+.tehnik_img img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.tehnik_text {
+  font-family: "Mulish", sans-serif;
+  line-height: 30px;
+  font-size: 22px;
+  padding: 20px;
+  flex: 1 1 auto;
+  color: black;
+}
+.tehnik_text:last-child {
+  margin: 0;
+}
+
+.tehnik_item {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#cb60b3+0,c146a1+16,a80077+51,db36a4+100 */
+  background: rgb(203, 96, 179);
+  /* Old browsers */
+  /* FF3.6-15 */
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgb(203, 96, 179) 0%, rgb(193, 70, 161) 16%, rgb(168, 0, 119) 51%, rgb(219, 54, 164) 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#cb60b3", endColorstr="#db36a4", GradientType=0);
+  /* IE6-9 */
+  border-radius: 8px;
+  border: 2px solid rgb(255, 0, 187);
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 7px 10px 2px rgb(255, 0, 187);
+}/*# sourceMappingURL=style.css.map */
